@@ -1,6 +1,7 @@
 import * as React from "react";
 import { View, Text } from "react-native";
 
+
 export default function App() {
   return (
     <View
@@ -9,7 +10,9 @@ export default function App() {
         justifyContent: "center",
         alignItems: "center",
       }}
+    
     >
+
       <Text>Universal React with Expo</Text>
     </View>
   );
