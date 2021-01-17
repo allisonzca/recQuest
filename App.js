@@ -1,7 +1,19 @@
 import * as React from "react";
-import { View, Text } from "react-native";
+import {View, Text, StyleSheet, TouchableWithoutFeedback } from "react-native";
 
-
+const styles = StyleSheet.create({
+  container: {
+    marginTop: 400,
+    
+  },
+  bright:{
+    color: '#dc143c',
+    fontWeight: 'bold',
+    fontSize: 30,
+    backgroundColor: 'lightskyblue',
+  },
+ 
+});
 export default function App() {
   return (
     <View
@@ -13,7 +25,7 @@ export default function App() {
     
     >
 
-      <Text>Universal React with Expo</Text>
+      <Text style={styles.bright}>Universal React with Expo</Text>
     </View>
   );
 }
